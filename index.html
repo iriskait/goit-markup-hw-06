@@ -14,27 +14,34 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css" />
 </head>
-<!-- header -->
 <body class="body">
+   <!-- header -->
     <header class="header">
         <div class="container header-container">
         <nav class="header-navigation">
             <a class="header-logo" href="./index.html">Web<span class="header-logo-web">Studio</span></a>
-            <ul class="header-menu-list">
+            <!-- <ul class="header-menu-list">
                 <li class="header-menu-item"><a class="header-menu-link-studio" href="./index.html">Studio</a></li>
                 <li class="header-menu-item"><a class="header-menu-link" href="">Portfolio</a></li>
                 <li class="header-menu-item"><a class="header-menu-link" href="">Contacts</a></li>
-            </ul>
+            </ul> -->
         </nav>
-        <address class="header-address">
+        <!-- <address class="header-address">
             <ul class="header-address-list">
                 <li class="header-address-item"><a class="header-address-link"
                         href="mailto:info@devstudio.com">info@devstudio.com</a></li>
                 <li class="header-address-item"><a class="header-address-link" href="tel:+110001111111">+11 (000)
                         111-11-11</a></li>
             </ul>
-        </address>
+        </address> -->
         </div>
+        <div class="mobile-menu is-open">
+            
+            <button class="mobile-menu-button" type="button">
+              <svg class="close-button-pic" width="8" height="8">
+                <use href="./images/icons.svg#icon-close"></use>
+              </svg>
+            </button>
     </header>
 
     <!-- HERO -->
@@ -50,11 +57,11 @@
             <h2 class="visually-hidden">Features</h2>
             <ul class="features-list">
                 <li class="features-content">
-                    <div class="features-icons-wrap">
+                    <!-- <div class="features-icons-wrap">
                     <svg class="features-icons" width="64" height="64">
                         <use href="./images/icons.svg#icon-antenna"></use>
                     </svg>
-                    </div>
+                    </div> -->
                     <h3 class="features-title">Strategy</h3>
                     <p class="features-text">
                         Our goal is to identify the business
@@ -62,11 +69,11 @@
                     </p>
                 </li>
                 <li class="features-content">
-                    <div class="features-icons-wrap">
+                    <!-- <div class="features-icons-wrap">
                     <svg class="features-icons" width="64" height="64">
                         <use href="./images/icons.svg#icon-clock"></use>
                     </svg>
-                    </div>
+                    </div> -->
                     <h3 class="features-title">Punctuality</h3>
                     <p class="features-text">
                         Bring the key message to the brand's audience for the best price within the shortest possible
@@ -74,11 +81,11 @@
                     </p>
                 </li>
             <li class="features-content">
-                <div class="features-icons-wrap"> 
+                <!-- <div class="features-icons-wrap"> 
                 <svg class="features-icons" width="64" height="64">
                     <use href="./images/icons.svg#icon-diagram"></use>
                 </svg>
-                </div>
+                </div> -->
                     <h3 class="features-title">Diligence</h3>
                     <p class="features-text">
                         Research and confirm brands that present the strongest digital growth opportunities and minimize
@@ -86,11 +93,11 @@
                     </p>
                 </li>
                 <li class="features-content">
-                    <div class="features-icons-wrap"> 
+                    <!-- <div class="features-icons-wrap"> 
                     <svg class="features-icons" width="64" height="64">
                         <use href="./images/icons.svg#icon-astronaut"></use>
                     </svg>
-                    </div>
+                    </div> -->
                     <h3 class="features-title">Technologies</h3>
                     <p class="features-text">
                         Design practice focused on digital experiences. We bring forth a deep passion for
@@ -101,7 +108,7 @@
         </div>
         </section>
         <section class="subject"> 
-        <div class="container"> 
+        <div class="subject-container"> 
             <h2 class="subject-title">Our Team</h2>
                 <ul class="subject-list">
                 <li class="subject-item">
@@ -396,10 +403,11 @@
             </svg>
            </button>
                     </form>
-        </div>
+
     </div>
 </footer>
-<div class="backdrop is-open"> 
+
+<div class="backdrop"> 
     <div class="modal">
         <button type="button" class="modal-close">
         <svg class="modal-close-btn" width="8" height="8">
