@@ -884,16 +884,17 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     margin: 0;
   }
 
-.soc-net-icon-bg {
+.social-net-icon-wrap {
     display: flex;
     align-items: center;
+    justify-content: center;
     width: 40px;
     height: 40px;
     border-radius: 50%;
     background-color: #4d5ae5;
 }
-.soc-net-icon {
-    fill: #f4f4fd;
+.social-net-icon {
+    fill: #f4f4fd; 
 }
   
 @media screen and (min-width: 768px) {
