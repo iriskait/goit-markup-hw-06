@@ -121,7 +121,7 @@ img {
         rgba(46, 47, 66, 0.7),
     rgba(46, 47, 66, 0.7)
     ),
-    url(../images/Dark-bg.jpg);
+    url(../images/mob-image-hero.jpg);
     background-size: cover;
   padding-top: 72px;
   padding-bottom: 72px;
@@ -140,9 +140,10 @@ img {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/Dark-bg.jpg);
+      url(../images/tab-image-hero.jpg);
   }
 }
+
 .hero-title {
     font-size: 36px;
   font-weight: 700;
@@ -1119,7 +1120,9 @@ margin-right: 120px;
     margin-left: 0;
   }
  
-
+  .modal {
+    width: 408px;
+    min-height: 584px;
 
 
 
@@ -1128,7 +1131,7 @@ margin-right: 120px;
 
   
 
-
+}
 
 
 
