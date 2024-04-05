@@ -539,6 +539,7 @@ display: flex;
 .footer-subscribe-media {
   width: 288px;
 }
+
 .footer-media-title {
   display: block;
   font-weight: 500;
@@ -582,7 +583,6 @@ display: flex;
   color: #fff;
   opacity: 0.6;
 }
-
 .footer-input:focus-within {
   border-color: #4d5ae5;
 }
@@ -1249,15 +1249,14 @@ margin-right: 120px;
 
   .footer-media {
     text-align: left;
+  }
 
+  .footer-media-title {
+    text-align: left;
   }
 
   .footer-media-wrap {
     margin-left: 0;
-  }
-
-  .footer-media {
-    align-self: start;
   }
 
   .footer-form-email {
