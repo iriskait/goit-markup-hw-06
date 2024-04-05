@@ -1133,7 +1133,7 @@ margin-right: 120px;
   }
 
   .subject-container {
-    width: 552px;
+    width: 584px;
 }
 
 .subject-list {
@@ -1146,6 +1146,11 @@ margin-right: 120px;
 
   .subject-item {
     width: calc((100% - 24px) / 2);
+  }
+
+  .subject-item-image {
+     margin: 0 auto;
+     width: 100%;
   }
 
   .subject-title {
