@@ -478,6 +478,7 @@ display: flex;
         letter-spacing: 0.02em;
         color: #fff;
         margin-bottom: 16px;
+        display: flex;
         text-align: center;
 }
 
@@ -1470,7 +1471,7 @@ align-items: start;
 }
 
 .footer-form-email {
-  flex-direction: row;
+  display: flex;
   gap: 24px;
 }
 
@@ -1487,6 +1488,7 @@ align-items: start;
   outline: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .footer-form-btn:hover,
   .footer-form-btn:focus {
     background-color: #404bbf;
