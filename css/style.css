@@ -1394,12 +1394,13 @@ margin-right: 120px;
   } 
 
   .portfolio-list {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    flex-direction: row;
-    column-gap: 24px;
-    row-gap: 48px;
+
+      display: flex;
+      flex-wrap: wrap;
+      gap: 24px;
+      row-gap: 48px;
+  }
+  
   }
 
 .portfolio-item {
