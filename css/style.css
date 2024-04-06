@@ -1329,7 +1329,7 @@ margin-right: 120px;
     flex-direction: row;
     gap: 40px;
   } 
-/* 
+
   .features-list {
     flex-direction: row;
     align-items: flex-start;
@@ -1337,23 +1337,11 @@ margin-right: 120px;
     row-gap: 72px;
     gap: 24px;
     flex-wrap: wrap;
-  } */
-  .features-list {
-    display: flex;
-    gap: 24px;
-}
-
+  } 
+ 
 .features-content {
-    display: block;
     width: calc((100% - 72px) / 4);
-}
-  /* .features-content {
-    width: calc((100% - 72px) / 4);
-  } */
-
-  .features-title {
-    text-align: left;
-  }
+  } 
 
   .features-icons-wrap {
     display: flex;
@@ -1393,9 +1381,18 @@ margin-right: 120px;
         url(../images/image-hero.jpg);
     }
 
+    .subject-list {
+      justify-content: space-between;
+      flex-direction: row;
+      gap: 24px;
+  }
+  
 .subject-item {
-  width: calc((100% - 72px) / 4); 
+  width: calc((100% - 72px) / 4);
     }
+.subject-item-image {
+  margin: 0 auto;
+}
 
 .portfolio-item {
   width: calc((100% - 48px) / 3);
