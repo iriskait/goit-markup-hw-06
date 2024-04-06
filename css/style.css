@@ -1000,8 +1000,8 @@ margin-right: 120px;
     background: #404bbf;
 }
 
-.header-menu-link:hover,
-.header-menu-link:focus {
+.header-menu-link-studio:hover,
+.header-menu-link-studio:focus {
     color: #404bbf;
 } 
 
@@ -1403,15 +1403,11 @@ margin-right: 120px;
     font-weight: 400;
   } 
 
-.subject-container {
-    width: 1128px;
-}
-
   .subject {
     background-color: #F4F4FD;
     text-align: center;
-    /* padding: 120px 0;
-    padding: 96px 0; */
+    padding: 120px 0;
+    padding: 96px 0;
 }
 
 .subject-list {
