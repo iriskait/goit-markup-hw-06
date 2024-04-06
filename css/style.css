@@ -1334,9 +1334,7 @@ margin-right: 120px;
     flex-direction: row;
     align-items: flex-start;
     justify-content: flex-start;
-    row-gap: 72px;
     gap: 24px;
-    flex-wrap: wrap;
   } 
  
 .features-content {
@@ -1392,6 +1390,16 @@ margin-right: 120px;
     }
 .subject-item-image {
   margin: 0 auto;
+  display: flex;
+}
+
+.portfolio-list {
+  display: flex;
+flex-wrap: wrap;
+align-items: flex-start;
+flex-direction: row;
+column-gap: 24px;
+row-gap: 48px;
 }
 
 .portfolio-item {
