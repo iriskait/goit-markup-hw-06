@@ -1329,19 +1329,27 @@ margin-right: 120px;
     flex-direction: row;
     gap: 40px;
   } 
-
+/* 
   .features-list {
     flex-direction: row;
     align-items: flex-start;
     justify-content: flex-start;
     row-gap: 72px;
-    column-gap: 24px;
+    gap: 24px;
     flex-wrap: wrap;
-  }
+  } */
+  .features-list {
+    display: flex;
+    gap: 24px;
+}
 
-  .features-content {
+.features-content {
+    display: block;
     width: calc((100% - 72px) / 4);
-  }
+}
+  /* .features-content {
+    width: calc((100% - 72px) / 4);
+  } */
 
   .features-title {
     text-align: left;
