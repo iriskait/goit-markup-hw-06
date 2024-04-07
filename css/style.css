@@ -1362,7 +1362,7 @@ font-size: 20px;
       url(../images/image-hero-2x.jpg);
   }
 
-  .features-container {
+.features-container {
     width: 296px;
   }
 
@@ -1405,6 +1405,11 @@ border: 1px solid #8e8f99;
 margin-bottom: 8px;
 } 
 
+
+.subject-container {
+  width: 1128px;
+}
+
 .subject-list {
     display: flex;
     flex-wrap: wrap;
@@ -1416,7 +1421,6 @@ margin-bottom: 8px;
 
 .subject-item {
 width: calc((100% - 72px) / 4);
-transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
 .portfolio-list {
