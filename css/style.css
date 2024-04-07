@@ -1405,9 +1405,8 @@ border: 1px solid #8e8f99;
 margin-bottom: 8px;
 } 
 
-
 .subject-container {
-  width: 1128px;
+  width: 1158px;
 }
 
 .subject-list {
@@ -1415,8 +1414,8 @@ margin-bottom: 8px;
     flex-wrap: wrap;
     align-items: flex-start;
     flex-direction: row;
-    column-gap: 24px;
-    row-gap: 72px;
+    /* column-gap: 24px;
+    row-gap: 72px; */
 }
 
 .subject-item {
