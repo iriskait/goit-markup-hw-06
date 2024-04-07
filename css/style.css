@@ -1325,9 +1325,11 @@ font-size: 20px;
   padding: 0;
 }
 
-.header-address-item {
+.header-address-link {
   font-size: 16px;
-  font-weight: 400;
+}
+
+.header-address-item {
   line-height: 1.5;
   color: #434455;
   letter-spacing: 0.02em;
@@ -1421,8 +1423,6 @@ margin-bottom: 8px;
     flex-wrap: wrap;
     align-items: flex-start;
     flex-direction: row;
-    /* column-gap: 24px;
-    row-gap: 72px; */
 }
 
 .subject-item {
