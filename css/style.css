@@ -864,7 +864,8 @@ position: fixed;
 top: 0;
 left: 0;
 width: 100%;
-width: 100vw;
+height: 100%;
+z-index: 999;
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -1312,7 +1313,7 @@ font-size: 20px;
 @media screen and (min-width: 1158px) {
 .container {
   max-width: 1158px;
-  padding: 0 16px 0;
+  padding: 0 15px 0;
 }
 
 .section {
@@ -1325,6 +1326,8 @@ font-size: 20px;
 }
 
 .header-address-item {
+  font-size: 16px;
+  font-weight: 400;
   line-height: 1.5;
   color: #434455;
   letter-spacing: 0.02em;
@@ -1353,7 +1356,7 @@ font-size: 20px;
     background-repeat: no-repeat;
     background-position: center;
         align-items: center; 
-        padding: 188px 188px; 
+        padding: 188px 0; 
         margin: 0 auto; 
         max-width: 1440px; 
         background-size: cover; 
@@ -1368,10 +1371,6 @@ font-size: 20px;
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/image-hero-2x.jpg);
-  }
-
-.features-container {
-    width: 296px;
   }
 
 .features-list {
